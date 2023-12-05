@@ -1,0 +1,82 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body>div{
+    width: 27rem;
+    height: 30rem;
+    background-color:rgba(128, 128, 128, 0.164);
+
+}
+.logo_region{
+    margin: 0;
+    height: 8rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo_area{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+.main_section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page_align{
+    background-color: black;
+    width: 85%;
+  
+}
+p,h3{
+    margin: 0;
+}
+h3{
+    margin-bottom:0.5rem;
+}
+p{
+    font-size: 0.8rem;
+    color: rgba(128, 128, 128, 0.897);
+}
+.sign_up_area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+}
+label{
+   margin-bottom: 0.55rem;
+}
+input{
+    background-color: rgba(128, 128, 128, 0.164);
+    border:#fff solid 2px;
+    width: 86%;
+    height: 2rem;
+    padding-left:1rem ;
+}
+button{
+    background-color: rgba(24, 114, 250, 0.945);
+    width: 92%;
+    height: 2rem;
+    color: #fff;
+    font-weight:;
+    border: none;
+    margin-top: 1.5rem;
+    border-radius: 3px;
+}
+
