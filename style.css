@@ -1,3 +1,7 @@
+:root{
+    --button-color:rgba(24, 114, 250, 0.945);
+    
+}
 body{
     background-color: #000;
     display: flex;
@@ -23,8 +27,8 @@ body>div{
     position: relative;
 }
 .logo_area{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
 }
 img{
@@ -32,16 +36,16 @@ img{
     margin: 0;
 }
 .main_section{
-    
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 .page_align{
-    background-color: black;
-    width: 85%;
+ 
+    width: 80%;
   
 }
 p,h3{
@@ -61,22 +65,54 @@ p{
 }
 label{
    margin-bottom: 0.55rem;
+   font-size: 0.99rem;
 }
 input{
-    background-color: rgba(128, 128, 128, 0.164);
+    background-color: rgba(128, 128, 128, 0);
     border:#fff solid 2px;
-    width: 86%;
+    width: 90%;
     height: 2rem;
     padding-left:1rem ;
+    color:#fff;
+    font-size: 1.04rem;
+}
+input:focus{
+    border:#fff solid 2px;
+    border-radius: none;
 }
 button{
-    background-color: rgba(24, 114, 250, 0.945);
-    width: 92%;
-    height: 2rem;
+    background-color:var(--button-color) ;
+    width: 97%;
+    height: 2.4rem;
     color: #fff;
-    font-weight:;
     border: none;
     margin-top: 1.5rem;
     border-radius: 3px;
+}
+button:hover{
+    outline: 1px solid var(--button-color);
+    outline-offset: 2px;   
+}
+button:active{
+    outline: #fff solid 1px;
+}
+.bottom_area>div{
+    width: 95%;
+    margin:0;
+    margin-top:2.4rem ;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 0.87rem;
+    height: 3rem;
+    gap: 3.5rem;
+    
+}
+.btns:hover{
+    outline: var(--button-color) 1px solid;
+    outline-offset: 10px;   
+}
+.btns:active{
+    outline:#fff 1px solid;  
 }
 
